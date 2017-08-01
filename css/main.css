@@ -1,0 +1,185 @@
+/*
+ * GLOBAL FORMATTING
+ *
+ *
+ *
+ *
+*/
+
+*{
+	margin:0px;
+	padding:0px;
+	color: white;
+}
+
+h1{
+	text-align:left;font-family: 'Arial Black', Gadget, sans-serif'Arial Black', Gadget, sans-serif;font-size: 30px;
+}
+
+h2 {
+	font: bold 14px Tahoma;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color: #80dfff;
+	text-decoration: none;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+
+body{
+	width: 100%; /* Need to specify width when using flexible boxes */
+	display:-webkit-box;
+	-webkit-box-pack: center; /*how do we want the boxes inside the body to be arranged? */
+	background-color: #1B2022;
+	background-image: url(/images/background.jpg);
+	background-size: 100%;
+}
+
+a{
+	color: #80dfff;
+}
+
+article p{
+	text-align: left;
+}
+
+
+/*
+ *
+ *
+ *     PAGE SYTLING
+ *
+ *
+ */
+
+
+
+#big_wrapper{ /* Wrapper Div */
+	max-width: 1000px;
+	margin: 20px 0px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex: 1;
+}
+
+
+
+
+#top_header { /* Logo and Title */
+	border: 3px solid black;
+	padding: 10px;
+	color:#C40B06;
+	background-color:#1D2224;
+}
+
+#top_menu { /*Navigation */
+	border: 1px solid black;
+	background: #1E2325;
+	color:white;
+}
+
+
+
+
+#top_menu a:hover{
+	background-color: #00493c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top_menu li{
+	display:inline-block;
+	list-style: none;
+	font: bold 20px Tahoma;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #0ea431;
+}
+
+#top_menu a{
+	color: #89F5A2;
+}
+
+#main_section {
+	-webkit-box-flex: 1;
+	/*margin: 20px;
+	padding: 20px;
+	*/
+	padding: 40px;
+	background-color: #1E2325;
+}
+
+#side_news {
+	border: 1px solid black;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+}
+
+#the_footer {
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+	background-color: #1E2325;
+}
+
+#exitiumimage{
+	text-align: center;
+	padding: 20px;
+}
+
+#spyhop{
+	background-color: white;
+	border-style: solid;
+	text-align: center;
+	margin: 10px;
+}
+
+#bukkit{
+	background-color: white;
+	border-style: solid;
+	margin: 10px;
+	text-align: center;
+}
+
+#unity{
+	background-color: white;
+	border-style: solid;
+	text-align: center;
+	margin: 10px;
+}
+
+#java{
+	background-color: white;
+	border-style: solid;
+	text-align: center;
+	margin: 10px;
+}
+
+/* Currently Selected Webpage In Navigation */
+#current{
+	background-color: #2e3538;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+#container {
+    width: 100%;
+}
+
+#picture{
+    float: left;
+    width: 270px;
+    margin: 0;
+    /*padding: 1em;*/
+}
+
+#information{
+    margin-left: 280px;
+    border-left: 4px solid gray;
+    height: 250px;
+}
+
+#name {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#titles {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+displayName{
+    color: #0066ff;
+}
+
+i {
+    color: #00ccff;
+}
+
+p {
+    font-family: sans-serif;
+    color: #ff6666;
+}
+
+
+img {
+    padding: auto;
+    max-height: 225px;
+}
